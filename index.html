@@ -88,6 +88,11 @@
           margin-top: 14px;
           margin-bottom: 30px;
         }
+        @media (max-width: 640px) {
+      .logo {
+        display: block;
+      }
+    }
     
       </style>
 
@@ -101,7 +106,7 @@
           <p class="subtitle">Enter a new password for you account</p>
     
           <form action="/" class="form">
-            <label for="password" class="label">Password</label>
+            <label for="password" class="label">Confirm Password</label>
             <input type="password" id="password" placeholder="*********" class="input input-password">
     
 
@@ -109,8 +114,13 @@
             <input type="password" id="new-password" placeholder="*********" class="input input-password">
     
             <input type="submit" value="Confirm" class="primary-button login-button" >
+            
           </form>
         </div>
       </div>
+
+
+      
 </body>
 </html>
+
